@@ -1,0 +1,112 @@
+.page-head{
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+}
+.toindex {
+	/* 鼠标手 */
+	cursor: pointer;
+}
+.mi p {
+	position: absolute;
+	top: 20px;
+	font-size: 8px;
+}
+.page-body{
+	width: 100%;
+	height: 589px;
+	background-color: #E7FFFF;
+}
+.login{
+	width: 100%;
+	height: 539px;
+	background-color: white; 
+	position: absolute;
+	top: 50px;
+}
+#choose{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	font-size: 28px;
+}
+#choose span{
+	/* 鼠标手 */
+	cursor: pointer;
+}
+#userlogin{
+	position: absolute;
+	left: 50px;
+	color: orangered;
+}
+#piclogin{
+	position: absolute;
+	left: 210px;
+}
+#username{
+	height: 50px;
+}
+#pwd{
+	height: 50px;
+}
+#ulogin button{
+	width: 100%;
+	height: 50px;
+	background-color: orangered;
+	color: white;
+}
+.others{
+	text-align: center;
+}
+.others span{
+	line-height: 40px;
+}
+.others #phone{
+	color: orange;
+}
+.others #phone a{
+	color: orange;
+}
+.others #phone a:hover{
+	/* 去下划线 */
+	text-decoration:none;
+}
+.others #reg a{
+	color: gray;
+}
+.others #reg a:hover{
+	color: orangered;
+	text-decoration:none;
+}
+#foot1{
+	height: 50px;
+}
+.body-foot {
+	height: 100px;
+	text-align: center;
+}
+.body-foot ul{
+	list-style: none;
+}
+.body-foot ul li{
+	display:inline;
+	margin-left: 10px;
+}
+.body-foot ul li a{
+	color: gray;
+}
+.body-foot ul li a:hover{
+	/* 去下划线 */
+	text-decoration:none;
+	color: black;
+}
+.body-foot span{
+	color: gray;
+}
+.plogin{
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	display: none;
+	z-index: 2;
+}

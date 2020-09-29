@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/web0914/web0914.iml" filepath="$PROJECT_DIR$/web0914/web0914.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web0915/web0915.iml" filepath="$PROJECT_DIR$/web0915/web0915.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web0916/web0916.iml" filepath="$PROJECT_DIR$/web0916/web0916.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web0916-maven/web0916-maven.iml" filepath="$PROJECT_DIR$/web0916-maven/web0916-maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web0918-maven/web0918-maven.iml" filepath="$PROJECT_DIR$/web0918-maven/web0918-maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web0925/web0925.iml" filepath="$PROJECT_DIR$/web0925/web0925.iml" />
+    </modules>
+  </component>
+</project>

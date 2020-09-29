@@ -1,0 +1,42 @@
+*{
+	background-color: gainsboro;
+}
+
+/* 右侧显示商品 */
+.pitem img {
+	width: 100%;
+}
+
+.pitem {
+	text-align: center;
+	height: 300px;
+}
+
+.pitem>div {
+	/* 动画效果时间 */
+	transition: all 0.5s;
+	background: white;
+	height: 280px;
+}
+
+.pitem>div:hover {
+	box-shadow: 0 0 15px 2px #ccc;
+	/* 动画效果	页面垂直移动元素 */
+	transform: translateY(-3px);
+}
+
+.pitem a:hover {
+	text-decoration: none;
+}
+
+.prc {
+	color: red;
+	background: white;
+}
+.msg {
+	color: gainsboro;
+	background: white;
+}
+.pitem h3{
+	background: white;
+}

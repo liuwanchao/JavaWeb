@@ -1,0 +1,228 @@
+/* 顶部图片 */
+#header img {
+	width: 100%;
+}
+
+/* 轮播图 */
+#picture {
+	height: 460px;
+	position: relative;
+}
+
+#content {
+	width: 98%;
+	height: 100%;
+	position: absolute;
+}
+
+#content div {
+	width: 100%;
+	height: 100%;
+}
+
+#content div img {
+	width: 100%;
+	height: 100%;
+}
+
+/* 轮播图左侧类型 */
+#type {
+	height: 460px;
+	/* 透明度 */
+	background-color: rgba(125, 125, 125, 0.5);
+	padding: 0;
+}
+
+#type ul {
+	width: 100%;
+	list-style: none;
+	position: absolute;
+	top: 10px;
+	padding: 0;
+}
+
+#type ul li a {
+	line-height: 40px;
+	color: white;
+	text-decoration: none;
+}
+
+#type ul li {
+	text-align: center;
+}
+
+#type ul li:hover {
+	background-color: coral;
+}
+
+/* 右侧商品列表*/
+#chtype {
+	height: 460px;
+	background-color: white;
+	border: 1px gray solid;
+}
+
+#chtype {
+	display: none;
+}
+
+.pite img {
+	width: 75%;
+}
+
+.pite {
+	text-align: center;
+}
+
+.pite>div {
+	/* 动画效果时间 */
+	transition: all 0.5s;
+}
+
+.pite>div:hover {
+	box-shadow: 0 0 15px 2px #ccc;
+	/* 动画效果	页面垂直移动元素 */
+	transform: translateY(-3px);
+}
+
+.pite a:hover {
+	text-decoration: none;
+}
+
+.pite .prc {
+	color: red;
+}
+
+/* 轮播图下图片 */
+#photo {
+	top: 20px;
+	left: 15px;
+	height: 200px;
+	padding: 0;
+}
+
+#photo1 {
+	padding: 0;
+}
+
+#pp {
+	background-color: gray;
+	width: 97%;
+	height: 138px;
+	z-index: 2;
+}
+
+#photo div img {
+	width: 100%;
+}
+
+#photo1 ul {
+	list-style: none;
+	padding: 0;
+}
+
+#photo1 ul li {
+	text-align: center;
+	float: left;
+	top: 15px;
+}
+
+#photo1 ul li a {
+	font-size: 8px;
+	color: white;
+}
+
+#photo1 li img {
+	width: 30px;
+}
+
+#photo1 ul li:hover a {
+	color: orangered;
+	text-decoration: none;
+}
+/* 横幅广告 */
+#advertising {
+
+	padding: 0;
+}
+
+#advertising div img {
+	width: 100%;
+}
+
+/* 展示商品 */
+#pho-head {
+	top: 30px;
+}
+
+#pho-head p {
+	top: 50px;
+}
+
+#findall {
+	top: 20px;
+}
+
+#findall a {
+	color: #000000;
+}
+
+#findall a:hover {
+	color: orangered;
+	text-decoration: none;
+}
+
+#pho-show {
+	top: 50px;
+	height: 614px;
+}
+
+/* 右侧显示商品 */
+.pitem img {
+	height: 100%;
+}
+
+.pitem {
+	text-align: center;
+	height: 300px;
+}
+
+.pitem>div {
+	/* 动画效果时间 */
+	transition: all 0.5s;
+}
+
+.pitem>div:hover {
+	box-shadow: 0 0 15px 2px #ccc;
+	/* 动画效果	页面垂直移动元素 */
+	transform: translateY(-3px);
+}
+
+.pitem a:hover {
+	text-decoration: none;
+}
+
+.pitem .prc {
+	color: red;
+}
+
+/* 底部 */
+#botton {
+	text-align: center;
+	border-top: 1px gray solid;
+	top: 150px;
+}
+
+#botton ul {
+	list-style: none;
+	padding: 0;
+}
+
+#botton ul a {
+	color: grey;
+}
+
+#botton ul a:hover {
+	color: orangered;
+	text-decoration: none;
+}

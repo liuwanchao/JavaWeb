@@ -1,0 +1,107 @@
+/* 头部 */
+#header {
+	height: 100px;
+	border-bottom: 1px gray solid;
+}
+
+#logo {
+	line-height: 100px;
+}
+
+#myself {
+	line-height: 30px;
+	top: 40px;
+	z-index: 2;
+}
+
+#myself ul {
+	list-style: none;
+	padding: 0;
+}
+
+#myself>ul>li {
+	float: left;
+	text-decoration: none;
+}
+
+#myself ul li a {
+	color: #777777;
+}
+
+#myself ul li a:hover {
+	color: orangered;
+	text-decoration: none;
+}
+
+#myself ul ul {
+	transform: scaleY(0);
+	transform-origin: 0px 0rem;
+	transition: all 0.5s;
+}
+
+#myself>ul>li:hover ul {
+	display: block;
+	transform: scaleY(1);
+}
+
+.cho:hover {
+	color: orange;
+	background-color: #E0E0E0;
+}
+
+/* 购物车 */
+.cartHead {
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.cartBody {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	
+}
+.cartBody .ac{
+	line-height: 100px;
+}
+.cartBody .change{
+	padding: 40px;
+}
+.cartBody img {
+	height: 100%;
+}
+
+.cartBody>.row {
+	height: 100px;
+}
+
+.cartBody>.row>div {
+	height: 100%;
+	border-bottom: 1px #ccc solid;
+}
+
+.cartBody input {
+	width: 50px;
+	text-align: center;
+}
+
+#total {
+	color: orangered;
+}
+
+/* 底部 */
+#botton{
+	text-align: center;
+}
+#botton ul{
+	list-style: none;
+	padding: 0;
+}
+#botton ul a{
+	color: grey;
+}
+#botton ul a:hover{
+	color: orangered;
+	text-decoration: none;
+}

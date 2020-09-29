@@ -1,0 +1,66 @@
+.container{
+	background-color: #F9F9F9;
+}
+#header{
+	height: 50px;
+}
+#body-main{
+	background-color: white;
+}
+#body-top{
+	width: 100%;
+	height: 55px;
+	text-align:center;
+	background-color: white;
+}
+#maintop{
+	font-size: 30px;
+	line-height: 80px;
+	text-align: center;
+}
+#regs input{
+	height: 40px;
+}
+#regs button{
+	width: 100%;
+	height: 40px;
+	background-color: orangered;
+	color: white;
+}
+#deal{
+	line-height: 150px;
+	text-align: center;
+	color: gray;
+}
+#deal a{
+	color: black;
+	font-weight: bold;
+}
+#deal a:hover{
+	text-decoration: none;
+}
+#foot1{
+	height: 50px;
+}
+.body-foot {
+	height: 100px;
+	text-align: center;
+}
+.body-foot ul{
+	list-style: none;
+}
+.body-foot ul li{
+	display:inline;
+	margin-left: 10px;
+}
+.body-foot ul li a{
+	color: gray;
+}
+.body-foot ul li a:hover{
+	/* 去下划线 */
+	text-decoration:none;
+	color: black;
+}
+.body-foot span{
+	color: gray;
+}
